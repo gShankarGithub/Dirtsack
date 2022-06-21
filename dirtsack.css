@@ -1,0 +1,206 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #999999;
+    font-weight: normal;
+    font-size: 14px;
+}
+.bodyclass{
+    background-image: url(Images/bg.png)
+}
+.header{
+    height: 225px;
+}
+.login-register{
+    height: 30px;
+    display: flex;
+    justify-content: end;
+}
+.login{
+    color: yellow;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.register{
+    color: #666666;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-left: 3px;
+}
+
+.logo-social{
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+}
+.logo{
+    flex: 3;
+}
+.logoimg{
+    padding-top: 15px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.social{
+    flex:1;
+    display: flex;
+}
+.socialfbimg{
+    height: 22px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.socialimg{
+    height: 22px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.shopimg{
+    height: 22px;
+    padding-top: 20px;
+    padding-left: 30px
+}
+.navbar-searchbar{
+    border: white;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    display: flex;
+}
+.navbar{
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.nav-button{
+    color: #666666;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+}
+.nav-button:hover{
+    text-decoration: underline;
+    color: #FCDD26;
+}
+.searchbar{
+    border-color: white; 
+   border-left-width: 1px;
+   border-left-style: solid;
+   padding-left: 10px;
+}
+.searchicon{
+    margin-top: 10px;
+}
+.search-bar{
+    padding-left: 5px;
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+.bodypart{
+    height: 1290px;
+}
+.carousalimg{
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.imagesetone{
+    display: flex;
+    justify-content: space-between;
+}
+.setText1{
+    color: white;
+    font-size: 16px;
+}
+.setText2{
+    color: yellow;
+}
+.secpara{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    height: 130px;
+}
+.navbar-footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 700px;
+}
+.nav-button-footer{
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    padding: 0;
+    padding-left: 5px;
+}
+.nav-button-footer:hover{
+    text-decoration: underline;
+    color: #FCDD26;
+}
+.nav-button-home-footer{
+    color: #FCDD26;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    padding: 0;
+    padding-left: 5px;
+}
+.footer-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.footer-join{
+    color: #FCDD26;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    width: 150px;
+    cursor: pointer;
+}
+.footer-join:hover{
+    text-decoration: underline;
+}
+.footersocialimg{
+    height: 22px;
+    padding-left: 10px;
+}
+.footer-social{
+    width: 350px;
+    display: flex;
+    justify-content: end;
+}
+.footerfbimg{
+    height: 22px;
+}
+.copyright{
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.dirtsack{
+    color: #FCDD26;
+    font-size: 14px;
+}
+.color-light{
+    color: rgba(128, 126, 126, 0.6);
+}
